@@ -1,0 +1,86 @@
+JFDML JFormDesigner: "7.0.1.0.272" Java: "11.0.6" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormWindow( "javax.swing.JDialog", new FormLayoutManager( class org.jdesktop.layout.GroupLayout ) {
+			"$horizontalGroup": "par l {seq {par l {seq l {space :p:559:p, par t {comp label5:::p::p, comp label4:::p::p}}, seq l {space :p:17:p, par l {comp scrollPane1::::752:x, comp label1:::p::p}}}, space :p:18:p, par l {comp label2:::p::p, comp label3:::p::p, comp scrollPane2::l:p:468:p, comp scrollPane3::l:::x}, space :p:33:p}}"
+			"$verticalGroup": "par l {seq l {space :p:43:p, comp label5:::p::p, space u:::p, comp label4:::p::p, space :p:22:p, par b {comp label1::b:p::p, comp label2::b:p::p}, space s:::p, par l:::p {comp scrollPane1:::p:473:p, seq {comp scrollPane2:::p:223:p, space s:::p, comp label3:::p::p, space s:::p, comp scrollPane3:::::x}}, space ::52:x}}"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Recents"
+				"font": new java.awt.Font( "Segoe UI", 0, 18 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Out of Stock"
+				"font": new java.awt.Font( "Segoe UI", 0, 18 )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Near to Empty"
+				"font": new java.awt.Font( "Segoe UI", 0, 18 )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea1"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane2"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea2"
+				} )
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane3"
+				add( new FormComponent( "javax.swing.JTextArea" ) {
+					name: "textArea3"
+				} )
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Furn Mart"
+				"font": new java.awt.Font( "Segoe UI", 0, 28 )
+			} )
+			menuBar: new FormContainer( "javax.swing.JMenuBar", new FormLayoutManager( class javax.swing.JMenuBar ) ) {
+				name: "menuBar1"
+				"font": new java.awt.Font( "Segoe UI", 0, 18 )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu1"
+					"text": "View"
+					"font": new java.awt.Font( "Segoe UI", 0, 18 )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem1"
+						"text": "Product Page"
+						"font": new java.awt.Font( "Segoe UI", 0, 16 )
+					} )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem2"
+						"text": "Stock"
+						"font": new java.awt.Font( "Segoe UI", 0, 16 )
+					} )
+				} )
+				add( new FormContainer( "javax.swing.JMenu", new FormLayoutManager( class javax.swing.JMenu ) ) {
+					name: "menu2"
+					"text": "Add"
+					"font": new java.awt.Font( "Segoe UI", 0, 18 )
+					add( new FormComponent( "javax.swing.JMenuItem" ) {
+						name: "menuItem4"
+						"text": "New Stock"
+						"font": new java.awt.Font( "Segoe UI", 0, 16 )
+					} )
+				} )
+			}
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 5, 10 )
+			"size": new java.awt.Dimension( 1290, 745 )
+		} )
+	}
+}
